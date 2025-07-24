@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewWeb</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+        @import url('@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');');
+        body {
+            background-image: url('fotodefundo.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .titilo {
+            background-image: url('one-piece-gear-5-luffy.avif');
+            background-size: cover;
+            text-align: center;
+            margin-bottom:5px;
+            padding: 60px;
+            border-radius: 8px;
+            height: 200px;
+        }
+        h1 {
+            color: #0a0a0a;
+            font-size: 90px;
+            font-family: "Fleur De Leah", cursive;
+            font-style: normal;
+        }
+        p {
+            color: #000000;
+            font-family: 'Lora', serif;
+            font-size: 19px;
+        }
+        footer {
+            background-color: #008cffe3;
+            padding: 1px;
+            width: 100%;
+            bottom: 2;
+            border-radius: 10px;
+        }
+        .conteudo {
+            margin: 20px auto; 
+            padding:35px;
+            background-color: #7f7f80dc;
+            border-radius: 8px;
+            color: #000000;
+            width: fit-content;
+        }
+        .conteudo input[type="text"] {
+            border-radius: 12px;
+            border: 2px solid #535353; 
+            background: rgba(255, 255, 255, 0.418); 
+            color: #000000;
+            padding: 8px 12px;
+            outline: none;
+            margin-bottom: 8px;
+            transition: border 0.2s;
+        }
+        .conteudo input[type="text"]:focus {
+            border-color: #888;
+            background: rgba(255,255,255,0.3);
+        }
+        .tabela {
+            margin: 20px auto;
+            padding: 55px;
+            background-color: #7f7f80dc;
+            border-radius: 8px;
+            color: #000000;
+            width: 460px;
+        }
+        .vide {
+            margin: 20px auto; /* Centraliza horizontalmente */
+            padding: 20px;
+            background-color: #7f7f80dc;
+            border-radius: 8px;
+            color: #000000;
+            width: 529px; 
+        }
+        .menu {
+            background-color: #008cffe3;
+            padding: 10px;
+            border-radius: 8px;
+            color: #ffffff;
+            text-align: center;
+            margin: 0px auto;
+        }
+        .login{
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #7f7f80dc;
+            border-radius: 8px;
+            color: #ffffff;
+            width: 527px; 
+        }
+        .login input[type="text"],
+        .login input[type="password"] {
+            border-radius: 12px;
+            border: 2px solid #535353; 
+            background: rgba(255, 255, 255, 0.418); 
+            color: #000000;
+            padding: 8px 12px;
+            outline: none;
+            margin-bottom: 8px;
+            transition: border 0.2s;
+        }
+        .login input[type="text"]:focus,
+        .login input[type="password"]:focus {
+            border-color: #888;
+            background: rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+   <div class="titilo">
+       <h1>Teste de Prova</h1>
+   </div>
+   <div class="menu">
+       <div style="text-align: center; margin: 0px;">
+         <a href="#conteudo" style="color: #ffffff; text-decoration: none;">Conteúdo</a>
+         <a href="#tabela" style="color: #ffffff; text-decoration: none;margin-left: 20px;">Tabela</a>
+         <a href="#video" style="color: #ffffff; text-decoration: none;margin-left: 20px;">Vídeo</a>
+         <a href="#login" style="color: #ffffff; text-decoration: none;margin-left: 20px;">Login</a>
+        </div>
+    </div>
+   <div class="conteudo" id="conteudo">
+         <p style="font-size: 30px;margin-top: auto;">Conteudo</p>
+         <p>Este é um teste de prova para verificar o conhecimento adquirido.<br>Por favor, responda às perguntas abaixo:</p>
+         <ol style="font-family: 'Lora', serif;">
+              <li>Qual é a capital da França? <br><input type="text" name="resposta1" id="resposta1" size="46"></li>
+              <li>Quem escreveu "Dom Casmurro"? <br><input type="text" name="resposta2" id="resposta2" size="46"></li>
+              <li>Quem escreveu "Dom Casmurro"? <br><input type="text" name="resposta2" id="resposta2" size="46"></li>
+              <li>O que é HTML? <br><input type="text" name="resposta3" id="resposta3" size="46"></li>
+         </ol>
+         <div style="text-align: center;">
+            <button style="color: #000000;border-radius: 5px;background-color: #008cff;width: 200px;height: 30px;font-size: 15px;">Enviar Respostas</button>
+         </div>
+    </div> 
+    <div class="tabela" id="tabela">
+        <p style="font-size: 30px;margin: 0px;;">Talaleiro lalala</p>
+        <p style="text-align: center;font-size: 25px;margin: 1px;">Uma Tabela Aleatoria</p>
+        <table border="1" style="font-family: 'Lora', serif;margin-left: 30px;background: #0066ff;border-radius: 10px;padding: 5px;">
+            <thead>
+                <tr>
+                    <th colspan="2" bgcolor="red">lwlwlwlwl</th>
+                </tr>
+                <tr>
+                    <th style="background-color: #ff0000; color: #ffffff;">Pergunta</th>
+                    <th style="background-color: #ee0000; color: #ffffff;">Resposta</th>
+                </tr>
+            </thead>
+            <tbody bgcolor="#f0f0f0">
+                <tr>
+                    <td>Qual é a capital da França?</td>
+                    <td>plaplaplaplapalpalpalpal</td>
+                </tr>
+                <tr>
+                    <td>Quem escreveu "Dom Casmurro"?</td>
+                    <td>plaplaplaplapalpalpalpal</td>
+                </tr>
+                <tr>
+                    <td>O que é HTML?</td>
+                    <td>plaplaplaplapalpalpalpal</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="vide" id="video">
+        <p style="text-align: center; font-size: 25px; margin: 1px;">Video Aleatorio</p>
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/SinNyasc-zU" frameborder="0" allowfullscreen style="border-radius: 10px;"></iframe>
+    </div>   
+    <div class="login" id="login">
+        <p style="text-align: center; font-size: 25px; margin: 1px;">Login</p>
+        <form action="#" method="post" style="text-align: center;margin: 5px;">
+            <input type="text" name="username" placeholder="Usuário" required>
+            <input type="password" name="password" placeholder="Senha" required>
+            <br>
+            <button type="submit" style="color: #000000;border-radius: 5px;background-color: #008cff;width: 150px;height: 30px;font-size: 15px;">Entrar</button>
+        </form>
+
+    </div>
+    <footer>
+        <p style="text-align: center; color: #ffffff;">&copy; 2025 Vincius de Araujo Dantas</p>
+    </footer>
+</body>
+</html>
